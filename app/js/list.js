@@ -1,0 +1,19 @@
+require(["config"],function(){
+	require(["header","footer","jquery","template"],function(header,footer,$,template){
+		 $("header").load("/html/component/header.html",function(){
+		 	 header.nav();
+		 })
+		 $.ajax({
+		 	method:"get",
+		 	url:"http://rap2api.taobao.org/app/mock/115101/gxg_project",
+		 	success:function(res){
+		 		console.log(res);
+		 		var html = template("pro-temp",{brands:res.brands});
+		 		$("#brands-list").html(html);
+		 	}
+		 });
+		 $("footer").load("/html/component/footer.html",function(){
+		 	  footer.nav();
+		 })
+	})
+})

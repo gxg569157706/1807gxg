@@ -1,0 +1,1 @@
+define(["tools","jquery"],function(o,n){function t(){}return t.prototype.nav=function(){n("#A").hover(function(){n(".download-app-box").show()},function(){n(".download-app-box").hide()}),n(window).scroll(function(){100<n(window).scrollTop()?n("#A,#AA").fadeIn(500):n("#A,#AA").fadeOut(500)}),n(".return-top").click(function(){n("html,body").animate({scrollTop:0},"slow")})},new t});

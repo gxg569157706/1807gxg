@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css">
+	</head>
+	<body>
+		<header></header>
+	     <p class="top-nav"><a href="/index.html" title="YOHO!BUY 有货!">BOYS首页 </a> > Red 古田卡</p>
+	     <div class="detail" style="width: 1150px;height: 450px; border: 1px solid red; margin: 15px auto; padding-top: 10px;">
+	     	<ul class="detailImg"></ul>
+	     	<script type="text/html" id="detail-template">
+	     		  <li class="detailList"><a href="/html/cart.html?id={{detailList.id}}" class="item"><img src="{{ detailList.img}}"/>
+	     		   <div id="detailList">
+	     		   	<p class="list-p1" >{{ detailList.name}}</p>
+		     		<p class="list-p2">￥{{ detailList.price}}</p>
+	     		   </div>
+	     		  </a>
+	     		  </li>
+		     	
+		     	<li class="detailList"><a href="javascript:;" class="item"><img src="/images/detailImg2.jpg"/>
+	     		   <div id="detailList">
+	     		   	<p class="list-p1" >古由卡 闽南风“欢喜”粉色加厚情侣卫衣</p>
+		     		<p class="list-p2">￥409</p>
+	     		   </div>
+	     		  </a>
+	     		</li>
+		     	<li class="detailList"><a href="javascript:;" class="item"><img src="/images/detailImg3.jpg"/>
+	     		   <div id="detailList">
+	     		   	<p class="list-p1" >古由卡 闽南风“欢喜”粉色加厚情侣卫衣</p>
+		     		<p class="list-p2">￥409</p>
+	     		   </div>
+	     		  </a>
+	     		</li>
+	     		<li class="detailList"><a href="javascript:;" class="item"><img src="/images/detailImg5.jpg"/>
+	     		   <div id="detailList">
+	     		   	<p class="list-p1" >古由卡 闽南风“欢喜”粉色加厚情侣卫衣</p>
+		     		<p class="list-p2">￥409</p>
+	     		   </div>
+	     		  </a>
+	     		</li>
+		     	
+	     	</script>
+	   
+	     </div>
+	     <footer></footer>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/detail.js"></script>
+	</body>
+</html>

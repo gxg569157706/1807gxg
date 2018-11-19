@@ -1,0 +1,26 @@
+.item{
+    width: 280px;
+    height: 373px;
+    display: block;
+}
+#detailList{
+    width: 280px;
+    height: 50px;
+    background-color: #f5f5f5;
+    opacity: .5;
+    display: block;
+//  margin-top: -50px;
+}
+#main-L img:hover{
+    opacity: 0.5;
+}
+#detailList>p{
+    font-size: 13px;
+}
+
+.detailList{
+    float: left;
+    width: 280px;
+    text-align: center;
+    margin-right: 7px;
+}

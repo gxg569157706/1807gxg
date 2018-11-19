@@ -1,0 +1,13 @@
+
+* {margin:0; padding:0; }
+li{list-style:none; }
+.section .yoho-page .slide-container .slide-wrap {width:1150px; height:510px; overflow:hidden; position:relative;}
+.section .yoho-page .slide-container .slide-wrap ul li{height:500px;position: absolute;left: 0;top: 0;z-index: 0;display: none;}
+.section .yoho-page .slide-container .slide-wrap ul li.ac{z-index: 5;}
+.section .yoho-page .slide-container .slide-wrap ol {position:absolute;bottom:3px; z-index:6; width: 1150px; margin-left: 5px;}
+.section .yoho-page .slide-container .slide-wrap ol li{width: 138px;height:54px;background: #fff; margin-top: 5px;
+   margin-right: 5px; float: left;line-height: 20px;text-align: center;cursor: pointer;}
+.section .yoho-page .slide-container .slide-wrap ol li.ac{background:red; color: #fff; opacity: 0.5;}
+.section .yoho-page .slide-container .slide-wrap>a{text-decoration: none;position: absolute;top: 42%;margin-top: -10px;height: 40px;line-height: 32px;text-align: center;width: 40px;font-size: 40px;vertical-align: middle;color: #fff;background: rgba(0,0,0,0.5);z-index:6;}
+#goPrev{left: 0;}
+#goNext{right: 0;}

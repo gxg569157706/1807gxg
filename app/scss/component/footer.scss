@@ -1,0 +1,240 @@
+.yoho-footer{
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+.yoho-footer .promise{
+    padding: 20px 0 10px;
+    background: #000;
+    height: 30px;
+    line-height: 30px;
+}
+.yoho-footer .promise .center-content{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yoho-footer .promise .center-content .left{
+    margin-right: 60px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    float: left;
+}
+.yoho-footer .promise .center-content .left .red{
+    color: #e01;
+    display: inline-block;
+    margin-top: 8px;
+}
+.yoho-footer .promise .center-content .left img{
+   
+}
+.yoho-footer .promise .center-content .left .s1{
+    color: #fff;
+     margin-top: 8px;
+    
+}    
+.yoho-footer .promise .center-content .right{
+    border: 1px solid #262626;
+    width: 240px;
+    float: right;
+    margin-right: 15px;
+}
+.yoho-footer .promise .center-content .right input{
+    width: 180px;
+    height: 32px;
+    padding: 0 10px;
+    line-height: 32px;
+    border: none;
+    margin: 0;
+    background: #000;
+    color: #666;
+}
+.yoho-footer .promise .center-content .right a{
+    display: block;
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 10px;
+//  opacity: .5;
+}
+.yoho-footer .footer-help{
+    background: #000;
+    font-size: 12px;
+    overflow: hidden;
+}
+.yoho-footer .footer-help>div{
+    padding: 15px 0;
+    border-top: 1px solid #262626;
+    width: 1150px;
+    margin: 0 auto;
+}
+.yoho-footer .footer-help ul{
+   width: 164px;
+   float: left;
+}
+.yoho-footer .footer-help ul li{
+    margin-bottom: 6px;
+}
+.yoho-footer .footer-help ul li:hover a{
+    text-decoration: underline;
+    color: #262626;
+}
+.yoho-footer .footer-help li p span{
+   color: #fff;
+}
+.yoho-footer .footer-link{
+    background: #000;
+    padding: 10px 0 0;
+    font-size: 12px;
+}
+.yoho-footer .footer-link .center-content{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.yoho-footer .footer-link .center-content .about-us{
+    line-height: 20px;
+    color: #666;
+//  padding-left: 230px;
+    position: relative;
+}
+.yoho-footer .footer-link .center-content .about-us .left-flag{
+    float: left;
+}
+.yoho-footer .footer-link .center-content .about-us .left-flag img{
+// margin-left: 5px;
+}
+.yoho-footer .footer-link .center-content .about-us a{
+  padding: 0 10px;
+}
+.yoho-footer .footer-link .center-content .about-us a:hover{
+  color: #262626;
+  text-decoration: underline;
+}
+.yoho-footer .footer-link-container{
+   background: #000;
+   padding: 10px 0 14px;
+   font-size: 12px; 
+}
+.yoho-footer .footer-link-container .center-content{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    border-top: 1px solid #262626;
+    color: #fff;
+}
+.yoho-footer .footer-link-container .center-content a{
+   margin:0 15px;
+}
+.yoho-footer .footer-link-container .center-content a:hover{
+   text-decoration: underline;
+   color: #262626;
+}
+.yoho-footer .right-float{
+    left: 100%;
+    right: 20px;
+    margin-left: auto;
+    position: fixed;
+    width: 60px;
+    left: 50%;
+    bottom: 20px;
+    margin-left: 595px;
+    z-index: 4;
+    
+}
+.yoho-footer .right-float .hover-box{
+    width: 71px;
+    position: relative;
+    left: -11px;
+    text-align: right;
+}
+.yoho-footer .right-float .hover-box>a:hover{
+    background: #666;
+}
+.yoho-footer .right-float .hover-box>a{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background: #808080;
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 16px;
+    box-sizing: border-box;
+    top: 50px;
+//  display: none;
+}
+.yoho-footer .right-float .hover-box .download-app-box{
+    position: absolute;
+    bottom: 0px;
+    left: -286px;
+    width: 296px;
+    height: 180px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: transparent;
+    z-index: 1000;
+    display: none; 
+    border: none;
+    zoom: 1;
+}
+.yoho-footer .right-float .hover-box .download-app-left{
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 180px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+//  display: none;
+}
+.yoho-footer .right-float .hover-box .download-app-left .we-chat{
+    margin: 10px auto;
+    width: 96px;
+    height: 96px
+}
+.yoho-footer .right-float .hover-box .download-app-left h5{
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+}
+ .yoho-footer .right-float .hover-box .download-app-right{
+    position: relative;
+    float: left;
+    width: 130px;
+    height: 180px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #f4f4f4;
+//  display: none;
+} 
+ .yoho-footer .right-float .hover-box .download-app-right>div{
+    margin: 10px auto;
+    width: 96px;
+    height: 96px;
+ }
+ .yoho-footer .right-float .hover-box .download-app-right h5{
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color: #000;
+ }
+ .yoho-footer .right-float .return-top #AA{
+     width: 60px;
+     height: 60px;
+     display: inline-block;
+     background: #808080;
+     padding-top: 16px;
+     box-sizing: border-box;
+     text-align: center;
+     margin-top: 15px;
+//   display: none;
+ }

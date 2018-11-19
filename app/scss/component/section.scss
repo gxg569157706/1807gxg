@@ -1,0 +1,128 @@
+*{margin:0;padding:0;}
+ .section .yoho-page{
+    margin: 10px auto 0;
+	width: 1150px;
+}
+ .section .yoho-page .slide-container{
+    height: 510px;
+//  border: 1px solid red;
+ }
+ .section .yoho-page .singlehot{
+ 	width: 1158px;
+ 	// height: 665px;
+ 	margin-left: -8px;
+ 	// border: 1px solid green;
+ }
+.section .yoho-page .floor-header{
+	position: relative;
+    margin: 80px 0 40px;
+}
+.section .yoho-page .floor-title{
+	margin: 0 auto;
+    width: 298px;
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #000;
+    font-size: 16px;
+    text-align: center;
+}
+.section .yoho-page .singlehot .list li{
+	  margin-left: 8px;
+    margin-bottom: 8px;
+	  float: left;
+ }
+.section .yoho-page .floor-ad{
+	width: 1150px;
+}
+.section .yoho-page .floor-ad img{
+	width: 100%;
+}
+.section .yoho-page .brand{
+	overflow: hidden;
+}
+.section .yoho-page .brand .img-brand{
+	position: relative;
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+}
+.section .yoho-page .brand .img-brand .img-item{
+	float: left;
+}
+.section .yoho-page .brand .img-brand .img-item:nth-child(2){
+    margin:0 8px;
+}
+.section .yoho-page .brand .logo-brand{
+	width: 1158px;
+    height: 282px;
+    overflow: hidden;
+//  border:1px solid red;
+}
+.section .yoho-page .brand .logo-brand li{
+	float: left;
+    margin: 8px 8px 0 0;
+    width: 185px;
+    height: 86px;
+    line-height: 86px;
+    font-size: 0;
+    text-align: center;
+}
+.section .yoho-page .brand .logo-brand .brand-more{
+    font-size: 16px;
+    list-style: none;
+}
+.section .yoho-page .recommend .header-nav{
+    position: absolute;
+    padding: 10px 0;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+}
+.section .yoho-page .recommend .tpl-body{
+    margin-bottom: 8px;
+    height:506px;
+}
+.section .yoho-page .recommend .tpl-body .tpl-nav{
+    width: 185px;
+    float: left;
+    overflow: hidden;
+}
+.section .yoho-page .recommend .tpl-body .tpl-nav .tpl-category{
+    height: 228px;
+    padding: 10px 0;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+.section .yoho-page .recommend .tpl-body .tpl-nav .tpl-category a{
+   float: left;
+   width: 50%;
+   text-align: center;
+   height: 38px;
+   line-height: 38px;
+}
+.section .yoho-page .recommend .tpl-body .tpl-brands{
+    float: left;
+    width: 378px;
+    height: 512px;
+    overflow: hidden;
+    margin-left: 8px;
+} 
+.section .yoho-page .recommend .tpl-body .tpl-types{
+    float: left;
+    overflow: hidden;
+    margin-top: -8px;
+    width: 579px;
+}
+.section .yoho-page .recommend .tpl-body .tpl-types li{
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.section .yoho-page .recommend .tpl-products{
+    overflow: hidden;
+    margin-left: -10px;
+}
+.section .yoho-page .recommend .tpl-products li{
+    float: left;
+    margin-left:8px;
+}

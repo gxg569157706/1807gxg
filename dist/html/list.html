@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	
+</head>
+<body>
+	<header></header>
+	<p class="top-nav"><a href="/index.html" title="YOHO!BUY 有货!">BOYS首页 </a> > 品牌一览</p>
+	<div id="brands">
+		<ul id="brands-list" style="margin-left: 80px;"> </ul>
+		    <script type="text/html" id="pro-temp">
+		    	{{each brands item i }}
+			   	<li style="width: 222px; height: 225px; background: skyblue; float: left; margin: 20px 20px 20px 0;">
+			   		<div class="pic"><a href="javascript:;"><img src="{{ item.img }}" alt="" /></a></div>
+			   		<p class="price" style="font-size: 14px; text-align: center;">{{ item.price }}</p>
+			   		<p class="name" style="font-size: 12px; text-align: center;">{{ item.name }}</p>
+			   	</li>
+		   	   {{/each}}
+		   </script>
+	</div>
+	<footer></footer>
+	<script type="text/javascript" src="/libs/require/require.js" data-main="/js/list.js"></script>
+</body>
+</html>

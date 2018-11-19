@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html style="height: 500px;">
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登录</title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css">
+	</head>
+	<body>
+	<!--	<header></header>-->
+	   <div id="simple-header">
+	   	<div class="header-inner">
+	   		<h2 class="logo">
+	   			<a href="javascript:;"><img src="../../images/logo1.png"/></a>
+	   		</h2>
+	   		<ul class="header-tool">
+	   			  <li>
+	   			  	<span>Hi~</span>
+	   			  	<a href="javascript:;">[请登录]</a>
+	   			  	<a href="/html/component/register.html">[免费注册]</a>
+	   			  	<a href="javascript:;">MY有货</a>
+	   			  	<a href="javascript:;">订单中心</a>
+	   			  	<a href="javascript:;">客户服务</a>
+	   			  	<a href="http://localhost:8888/index.html">返回首页</a>
+	   			  </li>
+	   		</ul>
+	   	</div>
+	   </div>
+	   <div class="main-page">
+	   	<div class="main-cover">
+	   		<div class="cover-content">
+	   			<a href="javascript:;"><img src="../../images/coverImg.jpg"/></a>
+	   		</div>
+	   	</div>
+	   	<form >
+		    <div class="content">
+		   		<ul class="login-ul">
+		   			<div class="desktop-login">
+		   				<li><h2>会员登录</h2></li>
+		   				<span>中国 +86</span>
+		   				<li class="relative">
+		   					<input type="text" name="username" id="username" placeholder="邮箱/手机号码"/>
+		   					<span class="alert" style="color: red; margin-right: 135px; display: none;">*用户名或者密码不正确!</span>
+		   				</li>
+		   				<li class="relative">
+		   					<input type="password" name="password" id="password"  placeholder="密码"/>
+		   				</li>
+		   				<li class="relative">
+		   					<button class="login-btn">登录</button>
+		   				</li>
+		   				<li class="other-opts">
+		   					
+		   					<span class="forget">
+		   						<a href="#" title="你傻吗？密码都记不住">忘记密码? </a>|<a href="/html/component/register.html" style="color: red;">快速注册</a>
+		   					</span>
+		   					<span class="remember-me">
+		   						<input type="checkbox" />记住登录状态&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+		   				</li>
+		   				<li class="three-login">
+		   					<a href="javascript:;"><span class="weixin"></span></a>
+		   					<a href="javascript:;"><span class="weibo"></span></a>
+		   					<a href="javascript:;"><span class="zhi"></span></a>
+		   				</li>
+		   			</div>
+		   		</ul>
+		   	</div>
+	   	</form>
+	   </div>
+		<footer ></footer>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/login.js"></script>
+	</body>
+</html>

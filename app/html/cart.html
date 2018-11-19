@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css">
+	</head>
+	<body>
+		<header></header>
+		 <div class="cart">
+		 	<ul class="ul-cart"></ul>
+		 	<script type="text/html" id="cart-template">
+		 	 <p class="top-nav" style="margin-left: 0;padding-bottom: 20px;">
+		 	 	<a href="/index.html" title="YOHO!BUY 有货!">BOYS首页 </a> > {{cart.name}}
+		 	    <h3 class="cart-name">{{cart.name}}</h3>
+		 	    <span class="cart-id" style="display: none;">{{cart.id}}</span>
+		 	 </p>
+		 	   <div class="small-pic">
+		 	   	 <img src="{{cart.img}}"/>
+		 	   </div>
+		 	    <!--放大镜-->
+		 		<li class="big-pic ">
+		 			<img src="{{cart.img}}" id="big-Img"/>
+		 			 <span id="fdj"></span> 
+		 		</li>
+		 		<div class="bigB">
+		 			 <img src="{{cart.img}}" id="bigImg"/>
+		 		</div>
+		 		
+		 		<p class="cart-price">促销价： <span style="font-size: 18px;">￥</span>
+		 			<span id="price">{{cart.price}}</span>&nbsp;&nbsp;&nbsp; 
+		 			<em>8.5折</em>&nbsp;&nbsp;<span class="login-span">登录后可查看vip价格</span>
+		 			&nbsp;&nbsp;<a href="http://localhost:8888/html/component/login.html">立即登录</a></p>
+		 	    <div class="activity">
+		 	    	<span>促&nbsp;&nbsp;销： </span>
+		 	    	<div class="activity-left">
+		 	    	  <p>	<span>加价购</span> <em>全场￥129加价购</em></p>
+		 	    	  <p>	<span>加价购</span> <em>全场￥99加价购</em></p>
+		 	    	  <p>	<span>加价购</span> <em>全场￥69加价购</em></p>
+		 	    	</div>
+		 	    </div>
+		 	    <div class="type-chooes">
+		 	    	<span>颜&nbsp;&nbsp;色： </span>
+		 	    	<ul>
+		 	    		<li><img src="{{cart.img}}" width="25px" height="34px"/><em>随机</em></li>
+		 	    	</ul>
+		 	    	<span>尺&nbsp;&nbsp;码： </span>
+		 	    	<ul class="ul-size">
+		 	    		<li><em>S</em></li>
+		 	    		<li><em>M</em></li>
+		 	    		<li><em>L</em></li>
+		 	    		<li><em>XL</em></li>
+		 	    		<li><em>XXL</em></li>
+		 	    	</ul>
+		 	    	<span>数&nbsp;&nbsp;量： </span>
+		 	    	 <div class="cart-num">
+		 	    	 	<span  class="min-num">-</span>
+		 	    	 	<span id="num">1</span>
+		 	    	 	<span  class="max-num">+</span>
+		 	    	 </div>
+		 	    </div>
+		 	    <div class="add-cart">
+		 	    	<span id="add-c">
+		 	    		<!--<a href="http://localhost:8888/html/shop.html?id={{cart.id}}">加入购物车</a>-->
+		 	    		加入购物车
+		 	    	</span>
+		 	    	<span id="collect-c">查看购物车</span>
+		 	    </div>
+		 	</script>
+		 		
+	
+		 </div>
+		<footer></footer>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/cart.js"></script>
+	</body>
+</html>

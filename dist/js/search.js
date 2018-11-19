@@ -1,0 +1,1 @@
+require(["config"],function(){require(["a","data","jquery","dataJson","search"],function(n,a,c,e,o){c("#searchcon").load("/html/component/search.html",function(){})})});

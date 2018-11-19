@@ -1,0 +1,401 @@
+*{margin: 0;padding: 0;}
+// ul li{list-style: none;}
+// a{text-decoration: none;}
+//header顶部开始
+.yoho-header{
+	height: 160px;
+//	border: 1px solid red;
+}
+.yoho-header .tool-wrapper{
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	background-color: #f4f4f4;
+}
+.yoho-header .tool-wrapper .center-content{
+	width: 1150px;
+	height:32px;
+	margin: 0 auto;
+	background-color: #f4f4f4;
+}
+//header顶部结束
+//header顶部左边开始
+.yoho-header .tool-wrapper .icon-hamburger{
+	background-image: url("../../images/sprite.scss.png");
+    background-position: -19px -86px;
+    background-size: 123px 122px;
+    width: 16px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.yoho-header .tool-wrapper a{font-size: 10px;}
+.yoho-header .tool-wrapper .yoho-group-map{padding: 0 5px; position: relative;float: left;}
+.yoho-header .tool-wrapper .yoho-group-map li a {
+    color: #9196a0;
+    font-size: 14px;
+}
+.tool-wrapper .yoho-group-map .yoho-group-list{
+	position: absolute;
+    display: none;
+    width: 170px;
+    top: 32px;
+    margin-left: -5px;
+    background-color: #f4f4f4;
+    padding: 20px 0 20px 20px;
+    z-index: 100;
+}
+.tool-wrapper .yoho-group-map:hover .yoho-group-list{
+	display: inline-block;
+}
+.tool-wrapper .yoho-group-map .yoho-group-list:hover li{
+	color:#000;
+}
+.tool-wrapper .yoho-group-map .yoho-group-list li a{
+   display:block;
+}
+.tool-wrapper .yoho-group-map .yoho-group-list li a em{
+	font-style:normal;
+	display:none;
+}
+.tool-wrapper .yoho-group-map .yoho-group-list li:hover a span{
+		display:none;
+}
+.tool-wrapper .yoho-group-map .yoho-group-list li:hover a em{
+		display:block;
+		color:#000;
+}
+//header顶部左边结束
+
+//header顶部左边开始
+.yoho-header .yoho-info {
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 0 1px;
+    // height: 32px;
+    float: left;
+    vertical-align: middle;
+    // overflow: hidden;
+}
+.yoho-header .yoho-info .icon-note {
+    display: inline-block;
+    background-image: url("../../images/sprite.scss.png");
+    background-position: -107px -22px;
+    background-size: 123px 122px;
+    width: 15px;
+    height: 14px;
+    margin-top: -2px;
+    margin-right: 2px;
+    vertical-align: middle;
+    }
+.yoho-header .yoho-info a {
+    color: #d71d32;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools{
+	float: right;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools li {
+    float: left;
+    padding-right: 10px;
+    position: relative;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools li a{
+	color: #8e8e8e;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools li a:hover{
+	color: red;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools #loginBox .loginbar{
+    display: inline-block;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools #loginBox .user{
+    display: none;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools #loginBox .userOut{
+    display: none;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools .span1 {
+    width: 0;
+    margin-top: 11px;
+    margin-right: 12px;
+    height: 14px;
+    float: left;
+    border-left: 1px solid #dcdcdc;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools li span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 10px;
+}
+.yoho-header .tool-wrapper .span2{
+	background-image: url("../../images/sprite.scss.png");
+    background-size: 123px 122px;
+    margin-top: -2px;
+    background-position: -64px -86px;
+    width: 10px;
+    height: 5px;
+}
+.yoho-header .tool-wrapper .icon-papers {
+	background-image: url("../../images/sprite.scss.png");
+    background-size: 123px 122px;
+    margin-top: -2px;
+    background-position: 0 -86px;
+    width: 11px;
+    height: 14px;
+}
+.yoho-header .tool-wrapper .icon-heart {
+	background-image: url("../../images/sprite.scss.png");
+	background-size: 123px 122px;
+    margin-top: -2px;
+    background-position: -107px -44px;
+    width: 15px;
+    height: 13px;
+}
+.yoho-header .tool-wrapper .icon-mail {
+	background-image: url("../../images/sprite.scss.png");
+    background-size: 123px 122px;
+    margin-top: -2px;
+    background-position: -107px -65px;
+    width: 16px;
+    height: 11px;
+}
+.yoho-header .tool-wrapper .we-chat .iconfont {
+	background-image: url("../../images/sprite.scss.png");
+	background-size: 123px 122px;
+    margin-top: -2px;
+    background-position: 0px -63px;
+    width: 15px;
+    height: 13px;
+    font-size: 14px;
+    color: #86bf4a;
+}
+.yoho-header .tool-wrapper .icon-phone {
+    background-image: url("../../images/sprite.scss.png");
+    background-position: 0 -108px;
+    background-size: 123px 122px;
+    width: 10px;
+    height: 14px;
+    margin-top: -2px;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools .phoneapp a {
+    color: #d71d32;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools .phoneapp:hover .download-app{
+	display:block;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools .phoneapp .download-app{
+	position: absolute;
+    top: 32px;
+    margin-left: -35px;
+    width: 146px;
+    padding: 20px 0 14px;
+    background-color: #f4f4f4;
+    border: none;
+    z-index: 1000;
+    display: none;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools .phoneapp .download-img{
+	position: relative;
+    background-image: url("../../images/downloadApp.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 2px auto 3px;
+    width: 96px;
+    height: 96px;
+}
+.yoho-header .tool-wrapper .yoho-buy-tools .phoneapp .download-app .words{
+	height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+}
+.yoho-header .head-wrapper{
+	width:100%;
+	height:87px;
+}
+.yoho-header .head-wrapper .main-nav-list {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 40px;
+    margin-left:106px;
+}
+.yoho-header .head-wrapper .main-nav-list .boys a{
+	 color: #fff;
+}
+.yoho-header .head-wrapper .main-nav-list .boys {
+    color: #fff;
+    background-color: #3a3a3a;
+}
+.yoho-header .head-wrapper .main-nav-list li {
+    float: left;
+    padding: 8px 22px 5px;
+    text-align: center;
+}
+.yoho-header .head-wrapper .main-nav-list li a {
+    font-size: 14px;
+    line-height: 14px;
+}
+.yoho-header .head-wrapper .main-nav-list li .name-en a {
+    color: #ddd;
+}
+.yoho-header .head-wrapper .func-area {
+    float: right;
+    width: 378px;
+    margin-right: 80px;
+    margin-top: -56px;
+}
+.yoho-header .head-wrapper .search form {
+    width: 320px;
+    height: 28px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #3a3a3a;
+    border: 1px solid #3a3a3a;
+    overflow: hidden;
+}
+.yoho-header .head-wrapper .search input {
+    width: 240px;
+    height: 100%;
+    border: none;
+    background: #fff;
+    box-sizing: border-box;
+    padding-left: 10px;
+    float: left;
+}
+.yoho-header .head-wrapper .search .search-btn {
+    background: url("../../images/search.png") no-repeat 50%;
+    width: 78px;
+    height: 28px;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+.yoho-header .head-wrapper .search-hot li {
+    float: left;
+    margin-right: 10px;
+}
+.yoho-header .head-wrapper .search-hot li a{
+   font-size: 10px;
+   color: #8e8e8e;
+}
+.yoho-header .head-wrapper .search-hot li a:hover{
+  text-decoration:underline;
+}
+.yoho-header .head-wrapper .go-cart a img{
+	position: absolute;
+    right: 80px;
+    top: 56px;
+}
+.yoho-header .head-wrapper .logo a img{
+   position: absolute;
+   left:533px;
+   top: 55px;
+}
+.yoho-header .nav-wrapper {
+    height: 40px;
+    width: 100%;
+    background-color: #3a3a3a;
+    position: relative;
+    top: 1px;
+}
+.yoho-header .nav-wrapper .center-content .ul li{
+    line-height: 40px;
+    padding-right: 46px;
+    box-sizing: border-box; 
+    float:left;
+    margin-right:36px; 
+}
+.yoho-header .nav-wrapper .ul li a{
+	color:#fff;
+	position:relative;
+}
+.yoho-header .nav-wrapper .ul li .panel{
+    width: 100%;
+    height: 410px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 38px;
+    display: none; 
+    padding: 30px 0;
+    background-color: #f8f8f8;
+   // background-color: skyblue;
+    z-index: 900;
+}
+.yoho-header .nav-wrapper .ul li .panel .center-content{
+    width: 1150px;
+    margin-left: auto;  
+    margin-right: auto;
+}
+.yoho-header .nav-wrapper .ul li .panel .center-content dl:first-child{
+    width: 228px;
+    border-left: 0;
+    padding-left: 0;
+}
+.yoho-header .nav-wrapper .ul li .panel .center-content dl{
+    float: left;
+    width: 278px;
+    height: 352px;
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+    padding: 0 50px;  
+}
+.yoho-header .nav-wrapper .ul li .panel .center-content dl dt{
+    width: 180px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.yoho-header .nav-wrapper .ul li .panel .center-content dl a:hover{
+    text-decoration: underline;
+}
+.yoho-header .nav-wrapper .ul li .panel .center-content dl dt a{
+    font-size: 14px;
+    border-bottom: none!important;
+    line-height: 14px;
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+.yoho-header .nav-wrapper .ul li .panel .center-content dl dd{
+    line-height: 14px;
+    height: 14px;
+    margin-bottom: 24px;
+}
+.yoho-header .nav-wrapper .ul li .panel .center-content dl dd a{
+    color: #a1a1a1;
+    font-size: 14px;
+    border-bottom: none!important;
+    line-height: 14px;
+    display: inline-block;
+    position: relative;
+}
+.yoho-header .nav-wrapper .ul li .panel .center-content .show-detail{
+    box-sizing: border-box;
+    padding-left: 19px;
+    padding-right: 19px;
+    width: 337px;
+    height: 250px;
+    float: right;
+}
+
+.yoho-header .nav-wrapper .ul li a:hover{
+	border-bottom:2px solid #fff;
+}
+
+.yoho-header .nav-wrapper .ul{
+	width: 1150px;
+	height:40px;
+	font-size:14px;
+	margin: 0 auto;
+}
+// nav{
+// 	height:50px;
+// 	li{
+// 		float: left;
+// 		a{display:block;padding: 0 20px;}
+// 	}
+	
+// }

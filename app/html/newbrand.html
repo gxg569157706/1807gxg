@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css">
+	</head>
+	<body>
+		<header></header>
+		  <p class="top-nav"><a href="/index.html" title="YOHO!BUY 有货!">BOYS首页 </a> > 新品到着</p>
+		 <div class="newBrand" style="width: 1150px;   margin: 20px auto;">
+		 	<ul id="newBrands"></ul>
+		 	<script type="text/html" id="newBrand-template">
+		         {{each newBrand item i}}
+		 		<li class="newB"><a href="/html/cart.html?id={{newBrand[i].id}}"><img src="{{item.img}}"/></a>
+		 		 <div class="new-text">
+		 		   <p>{{item.name}}</p>
+		 		   <p>￥{{item.price}}.00</p>
+		 		 </div>
+		 		</li>
+		 		 {{/each}}
+		 	</script>
+		 	
+		 </div>
+		<footer></footer>
+		<script type="text/javascript" src="/libs/require/require.js" data-main="/js/newbrand.js"></script>
+	</body>
+</html>
